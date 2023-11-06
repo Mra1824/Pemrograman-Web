@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    background-color: rgb(243, 182, 101);
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(232, 143, 33);
+    text-align:center;
+} 
+
+h3{
+    color: rgb(218, 127, 17);
+    text-align: center;
+}
+
+h4{
+    color: rgb(245, 156, 47);
+    text-align: center;
+}
+
+.gambar 
+{
+    text-align:center;
+}
