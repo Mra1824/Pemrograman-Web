@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: palevioletred;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 500px;
+}
+
+aside{
+    background-color: aquamarine;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+article{
+    background-color: #0766AD;
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    padding: 20px;
+}
+
+footer{
+    background-color: #FF9209;
+    padding: 10px;
+    margin: 10px;
+}
