@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image Picker</title>
+  </head>
+  <body>
+    <h2>Image Picker</h2>
+
+    <label for="pilihGambar">Pilih Gambar:</label>
+    <select id="pilihGambar" onchange="tampilkanGambar()">
+      <option value="gambar1">gambar1</option>
+      <option value="gambar2">gambar2</option>
+      <option value="gambar3">gambar3</option>
+
+    </select>
+    <br />
+
+    <img
+      src="foto1.png"
+      id="gambarTerpilih"
+      alt=""
+      width="300"
+    />
+
+    <script>
+      function tampilkanGambar() {
+        let nilaiTerpilih = document.getElementById("pilihGambar").value;
+        let gambarTerpilih = document.getElementById("gambarTerpilih");
+
+        // Menampilkan gambar sesuai dengan pilihan dropdown
+        switch (nilaiTerpilih) {
+          case "gambar1":
+          gambarTerpilih.src = "gambar1.jpg";
+            break;
+            
+          case "gambar2":
+            gambarTerpilih.src = "gambar2.jpg";
+            break;
+            
+          case "gambar3":
+            gambarTerpilih.src = "gambar3.jpg";
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
